@@ -21,6 +21,28 @@ export default {
   },
   generate: {
     dir: 'docs',
+    crawler: false,
+    routes: [
+      '/validated_posts/1',
+      '/validated_posts/2',
+      '/validated_posts/3',
+      '/validated_posts/4',
+      '/validated_posts/5',
+      '/validated_posts/6',
+      '/validated_posts/7',
+      '/validated_posts/8',
+      '/validated_posts/9',
+      '/validated_posts/10',
+      '/no_validated_posts/11',
+      '/no_validated_posts/12',
+      '/no_validated_posts/13',
+      '/no_validated_posts/14',
+      '/no_validated_posts/15',
+      '/no_validated_posts/16',
+      '/no_validated_posts/17',
+      '/no_validated_posts/18',
+      '/no_validated_posts/20',
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
