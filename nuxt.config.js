@@ -44,7 +44,6 @@ export default {
       '/no_validated_posts/20',
     ],
   },
-
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
 
