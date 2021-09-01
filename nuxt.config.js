@@ -1,3 +1,4 @@
+console.log("process",process.env.BASE)
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
