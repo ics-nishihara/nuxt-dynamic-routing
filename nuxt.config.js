@@ -17,7 +17,7 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   router: {
-    base: '/nuxt-dynamic-routing',
+    base: process.env.BASE || '/nuxt-dynamic-routing',
   },
   generate: {
     dir: 'docs',
