@@ -1,4 +1,4 @@
-console.log("process",process.env.BASE)
+console.log('process', process.env.BASE)
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -23,7 +23,7 @@ export default {
   generate: {
     dir: 'docs',
     crawler: false,
-    fallback: true,
+    fallback: '404.html',
     routes: [
       '/validated_posts/1',
       '/validated_posts/2',
