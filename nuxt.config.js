@@ -23,6 +23,7 @@ export default {
   generate: {
     dir: 'docs',
     crawler: false,
+    fallback: true,
     routes: [
       '/validated_posts/1',
       '/validated_posts/2',
