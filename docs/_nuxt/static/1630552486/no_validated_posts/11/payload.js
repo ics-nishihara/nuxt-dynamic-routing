@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/no_validated_posts/11", {data:[{}],fetch:{"0":{post:{userId:2,id:11,title:"et ea vero quia laudantium autem",body:"delectus reiciendis molestiae occaecati non minima eveniet qui voluptatibus\naccusamus in eum beatae sit\nvel qui neque voluptates ut commodi qui incidunt\nut animi commodi"}}},mutations:void 0});
