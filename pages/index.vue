@@ -1,30 +1,27 @@
 <template>
   <div>
-
     <div v-if="posts">
       <h1>Validationあり</h1>
       <ul>
-        <li v-for="post of posts.slice(0,10)" :key="post.id">
+        <li v-for="post of posts.slice(0, 10)" :key="post.id">
           <n-link :to="`/validated_posts/${post.id}`">
             {{ post.title }}
           </n-link>
         </li>
         <li>
-          <n-link :to="`/validated_posts/9999`">
-            存在しないリンク
-          </n-link>
+          <n-link :to="`/validated_posts/9999`"> 存在しないリンク </n-link>
         </li>
       </ul>
       <h1>Validationなし</h1>
       <ul>
-        <li v-for="post of posts.slice(11,20)" :key="post.id">
+        <li v-for="post of posts.slice(11, 20)" :key="post.id">
           <n-link :to="`/no_validated_posts/${post.id}`">
             {{ post.title }}
           </n-link>
         </li>
-        <n-link :to="`/no_validated_posts/9999`">
-          存在しないリンク
-        </n-link>
+        <li>
+          <n-link :to="`/no_validated_posts/9999`"> 存在しないリンク </n-link>
+        </li>
       </ul>
     </div>
   </div>
